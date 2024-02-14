@@ -998,7 +998,7 @@ definitions:
   PostalAddress:
     properties:
       buildingNumber:
-        description: buliding number of biller
+        description: buliding number
         example: '01'
         type: string
       city:
@@ -1013,7 +1013,7 @@ definitions:
         description: postalCode
         example: 8134
         type: string
-      street:
+      streetName:
         description: street name
         example: Soodmattenstrasse
         type: string
@@ -1022,7 +1022,7 @@ definitions:
       - city
       - countryCode
       - postalCode
-      - street
+      - streetName
     title: PostalAddress
     type: object
   Problem:
