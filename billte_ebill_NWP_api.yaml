@@ -34,9 +34,9 @@ definitions:
         maxLength: 9
         minLength: 1
         type: string
-      street:
+      streetName:
         description: Street
-        example: Neustadtstrasse
+        example: Soodmattenstrasse
         maxLength: 70
         minLength: 1
         type: string
@@ -1013,7 +1013,7 @@ definitions:
         description: postalCode
         example: 8134
         type: string
-      streetName:
+      street:
         description: street name
         example: Soodmattenstrasse
         type: string
@@ -1022,7 +1022,7 @@ definitions:
       - city
       - countryCode
       - postalCode
-      - streetName
+      - street
     title: PostalAddress
     type: object
   Problem:
