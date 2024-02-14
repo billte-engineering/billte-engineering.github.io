@@ -437,6 +437,21 @@ definitions:
   BusinessCase:
     description: the business case object on the NWP
     properties:
+      type:
+        description: |
+          the type of the business case
+        example: Bill
+        type: string
+      billerPid:
+        description: |
+          Biller PID
+        example: 41010560425610173
+        type: string
+      businessCaseDate:
+        description: |
+          The business case date (ISO-8601 format), can not be more than 90 days in the past on the date it was created. Cannot be in the future
+        example: 2023-12-22
+        type: string
       id:
         description: >
           A unique id for this business case on the NWP. Property must not be
